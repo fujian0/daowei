@@ -13,14 +13,4 @@ yarn-error.log*
 *.njsproj
 *.sln
 text
-.gitignore
-README.md
-app.js
-bin/
-home/
-package-lock.json
-package.json
-public/
-routes/
-test.html
-views/
+
