@@ -7,21 +7,20 @@
         bootstrap
         swiper
    ###css预编译器
-       使用stylus预编译器
-       安装依赖包
-       npm install stylus stylus-loader --save-dev
-       stylus的使用
-
-       	1. 安装 npm  install -g stylus   //全局安装
-       	2. 导入其他css    @import "reset.css"
-        stylus编译
-       	    新建文件夹test
-       	    新建demo.styl文件
-            新建test/dist文件夹
-            打开命令行界面
-       	    输入 stylus -w demo.styl -o dist
-       	    是自动监视文件 -o 是将编译后的CSS文件输出到指定文件中
-       	    在demo.styl里面写内容，保存即可
+    使用stylus预编译器
+      * 安装依赖包
+         npm install stylus stylus-loader --save-dev
+      * stylus的使用
+       	 1. 安装 npm  install -g stylus   //全局安装
+       	 2. 导入其他css    @import "reset.css"
+   ###stylus编译
+      1.新建文件夹test
+      2.新建demo.styl文件
+      3.新建test/dist文件夹
+      4.打开命令行界面
+      5.输入 stylus -w demo.styl -o dist
+       	-w是自动监视文件 -o 是将编译后的CSS文件输出到指定文件中
+       	在demo.styl里面写内容，保存即可
 
 
  ## 项目搭建
